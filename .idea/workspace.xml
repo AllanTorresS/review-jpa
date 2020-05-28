@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ae9a638-abaf-4216-8c7e-cd63530b1d5e" name="Default Changelist" comment="" />
+    <list default="true" id="8ae9a638-abaf-4216-8c7e-cd63530b1d5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/util/IniciarUnidadeDePersistencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/JunitFirstSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/manager/EntityManagerGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/produto/ProdutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1cT0OQV0HydzljhTL5VhYQcZtNR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +44,108 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/br/com/jpa/review" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.review.jpa.test.manager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProdutoTest.Atualizar">
+    <configuration name="ProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoTest.Atualizar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
+      <option name="METHOD_NAME" value="Atualizar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoTest.atualizarReferencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
+      <option name="METHOD_NAME" value="atualizarReferencia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoTest.buscarProdutoPorId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
+      <option name="METHOD_NAME" value="buscarProdutoPorId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoTest.salvar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
+      <option name="METHOD_NAME" value="salvar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProdutoTest.Atualizar" />
+        <item itemvalue="JUnit.ProdutoTest.salvar" />
+        <item itemvalue="JUnit.ProdutoTest" />
+        <item itemvalue="JUnit.ProdutoTest.atualizarReferencia" />
+        <item itemvalue="JUnit.ProdutoTest.buscarProdutoPorId" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -44,6 +167,9 @@
       <option name="presentableId" value="Default" />
       <updated>1590537243242</updated>
       <workItem from="1590537245895" duration="2276000" />
+      <workItem from="1590539680207" duration="706000" />
+      <workItem from="1590578993857" duration="3882000" />
+      <workItem from="1590619233285" duration="8152000" />
     </task>
     <servers />
   </component>
@@ -51,25 +177,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="283" y="24" key="#Project_Structure" timestamp="1590623642465">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state x="283" y="24" key="#Project_Structure/0.24.1366.699@0.24.1366.699" timestamp="1590623642465" />
     <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590539662999">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
     <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1366.699@0.24.1366.699" timestamp="1590539662999" />
-    <state width="1320" height="121" key="GridCell.Tab.0.bottom" timestamp="1590539666159">
+    <state x="291" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590623627786">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1590539666159" />
-    <state width="1320" height="121" key="GridCell.Tab.0.center" timestamp="1590539666155">
+    <state x="291" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.24.1366.699@0.24.1366.699" timestamp="1590623627786" />
+    <state width="1320" height="263" key="GridCell.Tab.0.bottom" timestamp="1590631636046">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1590539666155" />
-    <state width="1320" height="121" key="GridCell.Tab.0.left" timestamp="1590539666154">
+    <state width="1320" height="263" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1590631636046" />
+    <state width="1320" height="263" key="GridCell.Tab.0.center" timestamp="1590631636045">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1590539666154" />
-    <state width="1320" height="121" key="GridCell.Tab.0.right" timestamp="1590539666157">
+    <state width="1320" height="263" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1590631636045" />
+    <state width="1320" height="263" key="GridCell.Tab.0.left" timestamp="1590631636045">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1590539666157" />
+    <state width="1320" height="263" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1590631636045" />
+    <state width="1320" height="263" key="GridCell.Tab.0.right" timestamp="1590631636045">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state width="1320" height="263" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1590631636045" />
+    <state x="460" y="141" key="chooseDestDirectoryDialog" timestamp="1590624510811">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state x="460" y="141" key="chooseDestDirectoryDialog/0.24.1366.699@0.24.1366.699" timestamp="1590624510811" />
   </component>
 </project>
