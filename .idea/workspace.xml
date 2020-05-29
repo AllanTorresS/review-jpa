@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae9a638-abaf-4216-8c7e-cd63530b1d5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/util/IniciarUnidadeDePersistencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/JunitFirstSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/manager/EntityManagerGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/produto/ProdutoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Estoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/PagamentoBoleto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/PagamentoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/SexoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/StatusPagamentoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/StatusPedidosEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/produto/ProdutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/produto/ProdutoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,14 +57,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.jpa.review.model" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.jpa.review.model" />
       <recent name="br.com.review.jpa.test.manager" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProdutoTest.Atualizar">
+  <component name="RunManager" selected="JUnit.ProdutoTest.remover">
     <configuration name="ProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-review" />
       <extension name="coverage">
@@ -105,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest.buscarProdutoPorId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdutoTest.remover" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-review" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
       <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
-      <option name="METHOD_NAME" value="buscarProdutoPorId" />
+      <option name="METHOD_NAME" value="remover" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProdutoTest.remover" />
         <item itemvalue="JUnit.ProdutoTest.Atualizar" />
         <item itemvalue="JUnit.ProdutoTest.salvar" />
         <item itemvalue="JUnit.ProdutoTest" />
         <item itemvalue="JUnit.ProdutoTest.atualizarReferencia" />
-        <item itemvalue="JUnit.ProdutoTest.buscarProdutoPorId" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +180,10 @@
       <workItem from="1590537245895" duration="2276000" />
       <workItem from="1590539680207" duration="706000" />
       <workItem from="1590578993857" duration="3882000" />
-      <workItem from="1590619233285" duration="8152000" />
+      <workItem from="1590619233285" duration="8218000" />
+      <workItem from="1590665367864" duration="3353000" />
+      <workItem from="1590688055050" duration="3357000" />
+      <workItem from="1590707157529" duration="150000" />
     </task>
     <servers />
   </component>
@@ -189,22 +203,26 @@
       <screen x="0" y="24" width="1366" height="699" />
     </state>
     <state x="291" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.24.1366.699@0.24.1366.699" timestamp="1590623627786" />
-    <state width="1320" height="263" key="GridCell.Tab.0.bottom" timestamp="1590631636046">
+    <state x="445" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590688904115">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1590631636046" />
-    <state width="1320" height="263" key="GridCell.Tab.0.center" timestamp="1590631636045">
+    <state x="445" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.24.1366.699@0.24.1366.699" timestamp="1590688904115" />
+    <state width="1320" height="263" key="GridCell.Tab.0.bottom" timestamp="1590673336601">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1590631636045" />
-    <state width="1320" height="263" key="GridCell.Tab.0.left" timestamp="1590631636045">
+    <state width="1320" height="263" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1590673336601" />
+    <state width="1320" height="263" key="GridCell.Tab.0.center" timestamp="1590673336597">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1590631636045" />
-    <state width="1320" height="263" key="GridCell.Tab.0.right" timestamp="1590631636045">
+    <state width="1320" height="263" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1590673336597" />
+    <state width="1320" height="263" key="GridCell.Tab.0.left" timestamp="1590673336596">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1590631636045" />
+    <state width="1320" height="263" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1590673336596" />
+    <state width="1320" height="263" key="GridCell.Tab.0.right" timestamp="1590673336599">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state width="1320" height="263" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1590673336599" />
     <state x="460" y="141" key="chooseDestDirectoryDialog" timestamp="1590624510811">
       <screen x="0" y="24" width="1366" height="699" />
     </state>

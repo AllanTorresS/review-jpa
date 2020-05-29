@@ -9,8 +9,8 @@ import java.math.BigDecimal;
 @Entity
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Table(name = "produto")
-public class Produto {
+@Table(name = "cliente")
+public class Cliente {
 
     @EqualsAndHashCode.Include
     @Id
@@ -19,7 +19,5 @@ public class Produto {
 
     private String nome;
 
-    private String descrição;
-
-    private BigDecimal preco;
+    private SexoEnum sexo;
 }

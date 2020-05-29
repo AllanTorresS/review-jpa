@@ -4,22 +4,20 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
-import java.math.BigDecimal;
 
 @Entity
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Table(name = "produto")
-public class Produto {
+@Table(name = "estoque")
+public class Estoque {
 
     @EqualsAndHashCode.Include
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private Integer id;
 
-    private String nome;
+    @Column(name = "produto_id")
+    private Integer produtoId;
 
-    private String descrição;
-
-    private BigDecimal preco;
+    private Integer quantidade;
 }

@@ -39,7 +39,6 @@ public class ProdutoTest extends EntityManagerGeneric {
         p.setNome("celular xiaomi");
         p.setDescrição("8gb de ram");
 
-
         Produto s = entityManager.merge(p);
         Assert.assertNotNull(s.getId());
 
@@ -49,8 +48,11 @@ public class ProdutoTest extends EntityManagerGeneric {
     public void Atualizar(){
         Produto p = entityManager.find(Produto.class,5);
         p.setPreco(new BigDecimal(5000));
-
-
+    }
+    @Test
+    public void remover(){
+        Produto p = entityManager.find(Produto.class,5);
+        entityManager.remove(p);
     }
 
 }
