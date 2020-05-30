@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae9a638-abaf-4216-8c7e-cd63530b1d5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/enumeration/EnumeracaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/EnderecoEntregaPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/mix/EmbeddableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/SexoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/SexoEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Pedido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,23 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProdutoTest.remover">
+  <component name="RunManager" selected="JUnit.EmbeddableTest.isnerirComEmbeddable">
+    <configuration name="EmbeddableTest.isnerirComEmbeddable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.mix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.mix" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.mix.EmbeddableTest" />
+      <option name="METHOD_NAME" value="isnerirComEmbeddable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-review" />
       <extension name="coverage">
@@ -84,22 +100,6 @@
       <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
       <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
       <option name="METHOD_NAME" value="Atualizar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProdutoTest.atualizarReferencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
-      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
-      <option name="METHOD_NAME" value="atualizarReferencia" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmbeddableTest.isnerirComEmbeddable" />
         <item itemvalue="JUnit.ProdutoTest.remover" />
         <item itemvalue="JUnit.ProdutoTest.Atualizar" />
         <item itemvalue="JUnit.ProdutoTest.salvar" />
         <item itemvalue="JUnit.ProdutoTest" />
-        <item itemvalue="JUnit.ProdutoTest.atualizarReferencia" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,9 @@
       <workItem from="1590688055050" duration="3357000" />
       <workItem from="1590707157529" duration="150000" />
       <workItem from="1590713318526" duration="143000" />
-      <workItem from="1590791360675" duration="2036000" />
+      <workItem from="1590791360675" duration="2947000" />
+      <workItem from="1590841003308" duration="671000" />
+      <workItem from="1590876173428" duration="851000" />
     </task>
     <servers />
   </component>

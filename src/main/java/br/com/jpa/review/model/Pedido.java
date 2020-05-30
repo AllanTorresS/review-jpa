@@ -16,7 +16,7 @@ public class Pedido {
 
     @EqualsAndHashCode.Include
     @Id
-    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "data_pedido")
@@ -32,4 +32,7 @@ public class Pedido {
     private StatusPedidosEnum status;
 
     private BigDecimal total;
+
+    @Embedded
+    private EnderecoEntregaPedido enderecoEntregaPedido;
 }
