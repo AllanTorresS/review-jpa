@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae9a638-abaf-4216-8c7e-cd63530b1d5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/EnderecoEntregaPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/mix/EmbeddableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/mix/EstrategiasDeChaveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +46,19 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="br.com.jpa.review.model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="br.com.jpa.review.model" />
-      <recent name="br.com.review.jpa.test.manager" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.review.jpa.test.mix" />
+      <recent name="br.com.jpa.review.model" />
+      <recent name="br.com.review.jpa.test.manager" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.jpa.review.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmbeddableTest.isnerirComEmbeddable">
+  <component name="RunManager" selected="JUnit.EstrategiasDeChaveTest.estrategiaTable">
     <configuration name="EmbeddableTest.isnerirComEmbeddable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-review" />
       <extension name="coverage">
@@ -74,17 +75,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EstrategiasDeChaveTest.estrategiaTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
+          <option name="PATTERN" value="br.com.review.jpa.test.mix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
-      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.mix" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.mix.EstrategiasDeChaveTest" />
+      <option name="METHOD_NAME" value="estrategiaTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstrategiasDeChaveTest.estrtategiaIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.mix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.mix" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.mix.EstrategiasDeChaveTest" />
+      <option name="METHOD_NAME" value="estrtategiaIdentity" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,29 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest.salvar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.review.jpa.test.produto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.produto" />
-      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.produto.ProdutoTest" />
-      <option name="METHOD_NAME" value="salvar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EstrategiasDeChaveTest.estrategiaTable" />
+        <item itemvalue="JUnit.EstrategiasDeChaveTest.estrtategiaIdentity" />
         <item itemvalue="JUnit.EmbeddableTest.isnerirComEmbeddable" />
         <item itemvalue="JUnit.ProdutoTest.remover" />
         <item itemvalue="JUnit.ProdutoTest.Atualizar" />
-        <item itemvalue="JUnit.ProdutoTest.salvar" />
-        <item itemvalue="JUnit.ProdutoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,8 @@
       <workItem from="1590713318526" duration="143000" />
       <workItem from="1590791360675" duration="2947000" />
       <workItem from="1590841003308" duration="671000" />
-      <workItem from="1590876173428" duration="851000" />
+      <workItem from="1590876173428" duration="1127000" />
+      <workItem from="1591138197482" duration="4378000" />
     </task>
     <servers />
   </component>
@@ -200,22 +203,38 @@
       <screen x="0" y="24" width="1366" height="699" />
     </state>
     <state x="445" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.24.1366.699@0.24.1366.699" timestamp="1590688904115" />
-    <state width="1320" height="263" key="GridCell.Tab.0.bottom" timestamp="1590673336601">
+    <state width="1320" height="222" key="GridCell.Tab.0.bottom" timestamp="1591143548244">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1590673336601" />
-    <state width="1320" height="263" key="GridCell.Tab.0.center" timestamp="1590673336597">
+    <state width="1320" height="222" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1591143548244" />
+    <state width="1320" height="222" key="GridCell.Tab.0.center" timestamp="1591143548244">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1590673336597" />
-    <state width="1320" height="263" key="GridCell.Tab.0.left" timestamp="1590673336596">
+    <state width="1320" height="222" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1591143548244" />
+    <state width="1320" height="222" key="GridCell.Tab.0.left" timestamp="1591143548243">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1590673336596" />
-    <state width="1320" height="263" key="GridCell.Tab.0.right" timestamp="1590673336599">
+    <state width="1320" height="222" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1591143548243" />
+    <state width="1320" height="222" key="GridCell.Tab.0.right" timestamp="1591143548244">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="263" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1590673336599" />
+    <state width="1320" height="222" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1591143548244" />
+    <state width="1320" height="222" key="GridCell.Tab.1.bottom" timestamp="1591143548068">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state width="1320" height="222" key="GridCell.Tab.1.bottom/0.24.1366.699@0.24.1366.699" timestamp="1591143548068" />
+    <state width="1320" height="222" key="GridCell.Tab.1.center" timestamp="1591143548067">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state width="1320" height="222" key="GridCell.Tab.1.center/0.24.1366.699@0.24.1366.699" timestamp="1591143548067" />
+    <state width="1320" height="222" key="GridCell.Tab.1.left" timestamp="1591143548067">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state width="1320" height="222" key="GridCell.Tab.1.left/0.24.1366.699@0.24.1366.699" timestamp="1591143548067" />
+    <state width="1320" height="222" key="GridCell.Tab.1.right" timestamp="1591143548068">
+      <screen x="0" y="24" width="1366" height="699" />
+    </state>
+    <state width="1320" height="222" key="GridCell.Tab.1.right/0.24.1366.699@0.24.1366.699" timestamp="1591143548068" />
     <state x="460" y="141" key="chooseDestDirectoryDialog" timestamp="1590624510811">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
@@ -224,5 +243,16 @@
       <screen x="0" y="24" width="1366" height="699" />
     </state>
     <state x="346" y="44" width="672" height="678" key="search.everywhere.popup/0.24.1366.699@0.24.1366.699" timestamp="1590792130321" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/mix/EstrategiasDeChaveTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

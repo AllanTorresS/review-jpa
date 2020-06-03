@@ -14,7 +14,8 @@ public class Cliente {
 
     @EqualsAndHashCode.Include
     @Id
-    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.TABLE, generator = "tabela")
+    @TableGenerator(name = "tabela", pkColumnName = "sequence_name", pkColumnValue = "cliente", valueColumnName = "next_val",initialValue = 2, allocationSize = 1)
     private Integer id;
 
     private String nome;
@@ -44,6 +45,6 @@ public class Cliente {
      */
     @PostLoad
     private void postLoad() {
-        this.sexo = SexoEnum.tipoNum( this.sexoDescricao );
+        this.sexo = SexoEnum.tipoNum(this.sexoDescricao);
     }
 }
