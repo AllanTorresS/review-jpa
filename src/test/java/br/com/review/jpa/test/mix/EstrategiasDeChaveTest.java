@@ -28,11 +28,10 @@ public class EstrategiasDeChaveTest extends EntityManagerGeneric {
         Cliente c = new Cliente();
 
         c.setNome("Allan Torres");
-        c.setSexoDescricao("Feminino");
+        c.setSexo(SexoEnum.FEMININO);
 
-        Cliente obj = entityManager.merge(c);
-        Cliente cliente = entityManager.find(Cliente.class, obj.getId());
-        System.out.println(cliente.getSexo().getDescricao());
+         entityManager.persist(c);
+       Cliente cliente = entityManager.find(Cliente.class, 12);
 
     }
 

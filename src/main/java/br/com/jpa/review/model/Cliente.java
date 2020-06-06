@@ -3,7 +3,16 @@ package br.com.jpa.review.model;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.PostLoad;
+import javax.persistence.PrePersist;
+import javax.persistence.Table;
+import javax.persistence.TableGenerator;
+import javax.persistence.Transient;
 import java.math.BigDecimal;
 
 @Entity
@@ -33,6 +42,9 @@ public class Cliente {
     /**
      * antes de persistir, ele pega o objeto SEXO, que é um transient
      * que foi enviado em forma de objeto pelo front e retira dela a descrição.
+     *
+     * esse pre-persist só funciona se usar o entityManger.persist() como
+     * merge nãpo rola.
      */
     @PrePersist
     private void prePersist() {
