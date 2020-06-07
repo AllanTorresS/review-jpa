@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>91fec66b-9d0c-46f6-b68c-0ba8c64d416f.SCHEMA:sie.bdsie</OriginalElement>
+  <nodes>
+    <node x="340.4270833333333" y="1676.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_loa_lote_aluno</node>
+    <node x="884.0000000000001" y="1868.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_dae_dados_escolares</node>
+    <node x="2090.0" y="346.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblbairros</node>
+    <node x="549.6666666666667" y="2293.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_loe_lote_erro</node>
+    <node x="1748.5" y="0.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.plan_table</node>
+    <node x="953.0000000000001" y="562.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_tur_turno</node>
+    <node x="1503.0" y="2293.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_subtp_pendencia</node>
+    <node x="660.9270833333333" y="1892.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lte_lote_tipo_erro</node>
+    <node x="628.9236111111111" y="322.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_emp_empresa</node>
+    <node x="898.0000000000001" y="1203.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_cue_curso_escola</node>
+    <node x="1134.0" y="1892.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_fap_fase_pedido</node>
+    <node x="635.0000000000001" y="1215.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_evi_empresa_vinculada</node>
+    <node x="361.4270833333333" y="1191.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lot_lote</node>
+    <node x="2660.5" y="0.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_emp_empresa_20170830</node>
+    <node x="1110.4166666666667" y="2502.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_pendencia</node>
+    <node x="2105.5" y="0.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblufs</node>
+    <node x="13.75" y="951.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_aluno</node>
+    <node x="410.0000000000001" y="562.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lof_lote_fluxo</node>
+    <node x="121.17708333333326" y="0.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_mre_macroregiao</node>
+    <node x="223.0000000000001" y="562.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_los_lote_status</node>
+    <node x="2083.5" y="519.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tbllogradouros</node>
+    <node x="1121.4166666666667" y="2257.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ped_pedido</node>
+    <node x="1509.0" y="1892.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_tp_pendencia</node>
+    <node x="2357.5" y="0.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_bckp_emp_empresa</node>
+    <node x="0.0" y="526.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ent_entidade</node>
+    <node x="119.67708333333326" y="149.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_mun_municipio</node>
+    <node x="1323.0" y="1892.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_tip_tipo_pedido</node>
+    <node x="2088.5" y="149.0">91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblmunicipios</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ped_pedido" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_dae_dados_escolares">
+      <point x="-56.66666666666663" y="-97.5" />
+      <point x="1149.75" y="2232.0" />
+      <point x="999.0000000000001" y="2232.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_cue_curso_escola" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_emp_empresa">
+      <point x="-50.5" y="-85.5" />
+      <point x="948.5000000000001" y="926.0" />
+      <point x="854.6736111111111" y="926.0" />
+      <point x="96.75" y="289.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_subtp_pendencia" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_tp_pendencia">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_aluno" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_mun_municipio">
+      <point x="71.5" y="-337.5" />
+      <point x="228.25" y="926.0" />
+      <point x="212.5000000000001" y="926.0" />
+      <point x="212.5000000000001" y="297.0" />
+      <point x="220.67708333333326" y="297.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_pendencia" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_aluno">
+      <point x="-64.0" y="-97.5" />
+      <point x="1142.4166666666667" y="2477.0" />
+      <point x="156.75" y="2477.0" />
+      <point x="0.0" y="337.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ped_pedido" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_tip_tipo_pedido">
+      <point x="56.66666666666663" y="-97.5" />
+      <point x="1263.0833333333335" y="2232.0" />
+      <point x="1406.0" y="2232.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_loe_lote_erro" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lte_lote_tipo_erro">
+      <point x="36.0" y="-61.5" />
+      <point x="657.6666666666667" y="2232.0" />
+      <point x="750.4270833333333" y="2232.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_loe_lote_erro" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_loa_lote_aluno">
+      <point x="-36.0" y="-61.5" />
+      <point x="585.6666666666667" y="2232.0" />
+      <point x="483.4270833333333" y="2232.0" />
+      <point x="0.0" y="265.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_mun_municipio" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_mre_macroregiao">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ped_pedido" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_fap_fase_pedido">
+      <point x="0.0" y="-97.5" />
+      <point x="1206.4166666666667" y="2232.0" />
+      <point x="1218.5" y="2232.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_cue_curso_escola" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_tur_turno">
+      <point x="50.5" y="-85.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_aluno" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ent_entidade">
+      <point x="-71.5" y="-337.5" />
+      <point x="85.25" y="926.0" />
+      <point x="101.0" y="926.0" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lot_lote" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_los_lote_status">
+      <point x="-81.33333333333326" y="-97.5" />
+      <point x="402.09375000000006" y="926.0" />
+      <point x="306.5000000000001" y="926.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_pendencia" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ped_pedido">
+      <point x="0.0" y="-97.5" />
+      <point x="0.0" y="97.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_dae_dados_escolares" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_cue_curso_escola">
+      <point x="0.0" y="-73.5" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblmunicipios" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblufs">
+      <point x="0.0" y="-73.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblbairros" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblmunicipios">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_emp_empresa" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_mun_municipio">
+      <point x="0.0" y="-289.5" />
+      <point x="757.9236111111111" y="297.0" />
+      <point x="288.0104166666666" y="297.0" />
+      <point x="67.33333333333331" y="61.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_ent_entidade" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_mun_municipio">
+      <point x="0.0" y="-85.5" />
+      <point x="101.0" y="297.0" />
+      <point x="153.34375" y="297.0" />
+      <point x="-67.33333333333331" y="61.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_loa_lote_aluno" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lot_lote">
+      <point x="0.0" y="-265.5" />
+      <point x="0.0" y="97.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lot_lote" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_emp_empresa">
+      <point x="81.33333333333326" y="-97.5" />
+      <point x="564.7604166666665" y="926.0" />
+      <point x="661.1736111111111" y="926.0" />
+      <point x="-96.75" y="289.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_alu_pendencia" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_subtp_pendencia">
+      <point x="64.0" y="-97.5" />
+      <point x="1270.4166666666667" y="2477.0" />
+      <point x="1582.0" y="2477.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lot_lote" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_lof_lote_fluxo">
+      <point x="0.0" y="-97.5" />
+      <point x="483.4270833333333" y="926.0" />
+      <point x="493.0000000000001" y="926.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_evi_empresa_vinculada" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tb_emp_empresa">
+      <point x="-60.75" y="-73.5" />
+      <point x="695.7500000000001" y="926.0" />
+      <point x="725.6736111111111" y="926.0" />
+      <point x="-32.25" y="289.5" />
+    </edge>
+    <edge source="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tbllogradouros" target="91fec66b-9d0c-46f6-b68c-0ba8c64d416f.TABLE:sie.bdsie.tblbairros">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.36120721383879273" x="1459.5" y="1348.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
