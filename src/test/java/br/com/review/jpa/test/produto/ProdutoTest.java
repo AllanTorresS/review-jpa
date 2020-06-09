@@ -38,6 +38,7 @@ public class ProdutoTest extends EntityManagerGeneric {
         Produto p = new Produto();
         p.setNome("celular xiaomi");
         p.setDescrição("8gb de ram");
+        p.setPreco(BigDecimal.TEN);
 
         Produto s = entityManager.merge(p);
         Assert.assertNotNull(s.getId());

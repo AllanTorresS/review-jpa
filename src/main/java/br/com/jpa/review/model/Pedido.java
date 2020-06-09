@@ -7,6 +7,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -29,12 +30,17 @@ public class Pedido {
     @Column(name = "data_conclusao")
     private LocalDateTime dataConclusao;
 
-    @Column(name = "nota_fiscal_id")
-    private Integer notaFiscalId;
+    @OneToOne(mappedBy = "pedidoId")
+    private NotaFiscal notaFiscalId;
+
+    @OneToOne(mappedBy = "pedidoId")
+    private PagamentoCartao pagamentoCartaoId;
 
     @Enumerated(EnumType.STRING)
     private StatusPedidosEnum status;
 
+    @OneToMany(mappedBy = "pedidoId")
+    private List<ItemPedido> itemPedidos;
     private BigDecimal total;
 
     @Embedded

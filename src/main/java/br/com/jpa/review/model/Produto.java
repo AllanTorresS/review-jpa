@@ -5,6 +5,7 @@ import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.List;
 
 @Entity
 @Data
@@ -14,7 +15,7 @@ public class Produto {
 
     @EqualsAndHashCode.Include
     @Id
-    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String nome;
@@ -22,4 +23,13 @@ public class Produto {
     private String descrição;
 
     private BigDecimal preco;
+
+    @OneToMany(mappedBy = "produtoId")
+    private List<ItemPedido> itemPedidos;
+
+    @ManyToMany
+    @JoinTable(name = "produto_categoria",
+            joinColumns = @JoinColumn(name = "produto_id"),
+            inverseJoinColumns = @JoinColumn(name = "categoria_id"))
+    private List<Categoria> categorias;
 }

@@ -3,17 +3,9 @@ package br.com.jpa.review.model;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.PostLoad;
-import javax.persistence.PrePersist;
-import javax.persistence.Table;
-import javax.persistence.TableGenerator;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.List;
 
 @Entity
 @Data
@@ -31,6 +23,9 @@ public class Cliente {
 
     @Column(name = "sexo")
     private String sexoDescricao;
+
+    @OneToMany(mappedBy = "cliente")
+    private List<Pedido> pedidos;
 
     @Transient
     private SexoEnum sexo;
