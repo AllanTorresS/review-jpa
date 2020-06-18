@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae9a638-abaf-4216-8c7e-cd63530b1d5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/categoria/CategoriaAutoRelacionamentoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/pedido/ItemPedidoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/mix/CicloDeVidaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/PagamentoCartao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jpa/review/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/pedido/PedidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/pedido/PedidoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/produto/ProdutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/review/jpa/test/produto/ProdutoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,39 +120,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PedidoTest.determinarMetodoGerarNotaFiscal">
-    <configuration name="CategoriaAutoRelacionamentoTest.salvarAutoRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.review.jpa.test.categoria.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.categoria" />
-      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.categoria.CategoriaAutoRelacionamentoTest" />
-      <option name="METHOD_NAME" value="salvarAutoRelacionamento" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoriaAutoRelacionamentoTest.salvarCategoria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.review.jpa.test.categoria.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.categoria" />
-      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.categoria.CategoriaAutoRelacionamentoTest" />
-      <option name="METHOD_NAME" value="salvarCategoria" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CicloDeVidaTest.callback">
     <configuration name="CategoriaAutoRelacionamentoTest.salvarMuitosPordutosMuitasCategorias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-review" />
       <extension name="coverage">
@@ -172,6 +132,38 @@
       <option name="PACKAGE_NAME" value="br.com.review.jpa.test.categoria" />
       <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.categoria.CategoriaAutoRelacionamentoTest" />
       <option name="METHOD_NAME" value="salvarMuitosPordutosMuitasCategorias" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CicloDeVidaTest.callback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.mix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.mix" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.mix.CicloDeVidaTest" />
+      <option name="METHOD_NAME" value="callback" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CicloDeVidaTest.verificaCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.review.jpa.test.mix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.review.jpa.test.mix" />
+      <option name="MAIN_CLASS_NAME" value="br.com.review.jpa.test.mix.CicloDeVidaTest" />
+      <option name="METHOD_NAME" value="verificaCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CicloDeVidaTest.callback" />
+        <item itemvalue="JUnit.CicloDeVidaTest.verificaCache" />
         <item itemvalue="JUnit.PedidoTest.determinarMetodoGerarNotaFiscal" />
         <item itemvalue="JUnit.PedidoTest.determinarMetodoDePagamento" />
         <item itemvalue="JUnit.CategoriaAutoRelacionamentoTest.salvarMuitosPordutosMuitasCategorias" />
-        <item itemvalue="JUnit.CategoriaAutoRelacionamentoTest.salvarCategoria" />
-        <item itemvalue="JUnit.CategoriaAutoRelacionamentoTest.salvarAutoRelacionamento" />
       </list>
     </recent_temporary>
   </component>
@@ -224,12 +216,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:sie@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -263,7 +250,14 @@
       <workItem from="1591564234128" duration="1889000" />
       <workItem from="1591567374225" duration="446000" />
       <workItem from="1591622483634" duration="13000" />
-      <workItem from="1591652639322" duration="10196000" />
+      <workItem from="1591652639322" duration="10279000" />
+      <workItem from="1592052462355" duration="1344000" />
+      <workItem from="1592067984835" duration="13000" />
+      <workItem from="1592477711700" duration="1629000" />
+      <workItem from="1592480488715" duration="2928000" />
+      <workItem from="1592503478327" duration="1153000" />
+      <workItem from="1592506384994" duration="9000" />
+      <workItem from="1592520800772" duration="1364000" />
     </task>
     <servers />
   </component>
@@ -308,38 +302,38 @@
       <screen x="0" y="24" width="1366" height="699" />
     </state>
     <state x="471" y="119" key="FileChooserDialogImpl/0.24.1366.699@0.24.1366.699" timestamp="1591564940364" />
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1591662791064">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom" timestamp="1592488502590">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1591662791064" />
-    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1591662791064">
+    <state width="1320" height="198" key="GridCell.Tab.0.bottom/0.24.1366.699@0.24.1366.699" timestamp="1592488502590" />
+    <state width="1320" height="198" key="GridCell.Tab.0.center" timestamp="1592488502587">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1591662791064" />
-    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1591662791063">
+    <state width="1320" height="198" key="GridCell.Tab.0.center/0.24.1366.699@0.24.1366.699" timestamp="1592488502587" />
+    <state width="1320" height="198" key="GridCell.Tab.0.left" timestamp="1592488502585">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1591662791063" />
-    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1591662791064">
+    <state width="1320" height="198" key="GridCell.Tab.0.left/0.24.1366.699@0.24.1366.699" timestamp="1592488502585" />
+    <state width="1320" height="198" key="GridCell.Tab.0.right" timestamp="1592488502589">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="198" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1591662791064" />
-    <state width="1320" height="222" key="GridCell.Tab.1.bottom" timestamp="1591662237418">
+    <state width="1320" height="198" key="GridCell.Tab.0.right/0.24.1366.699@0.24.1366.699" timestamp="1592488502589" />
+    <state width="1320" height="222" key="GridCell.Tab.1.bottom" timestamp="1591665922839">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="222" key="GridCell.Tab.1.bottom/0.24.1366.699@0.24.1366.699" timestamp="1591662237418" />
-    <state width="1320" height="222" key="GridCell.Tab.1.center" timestamp="1591662237418">
+    <state width="1320" height="222" key="GridCell.Tab.1.bottom/0.24.1366.699@0.24.1366.699" timestamp="1591665922839" />
+    <state width="1320" height="222" key="GridCell.Tab.1.center" timestamp="1591665922838">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="222" key="GridCell.Tab.1.center/0.24.1366.699@0.24.1366.699" timestamp="1591662237418" />
-    <state width="1320" height="222" key="GridCell.Tab.1.left" timestamp="1591662237417">
+    <state width="1320" height="222" key="GridCell.Tab.1.center/0.24.1366.699@0.24.1366.699" timestamp="1591665922838" />
+    <state width="1320" height="222" key="GridCell.Tab.1.left" timestamp="1591665922837">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="222" key="GridCell.Tab.1.left/0.24.1366.699@0.24.1366.699" timestamp="1591662237417" />
-    <state width="1320" height="222" key="GridCell.Tab.1.right" timestamp="1591662237418">
+    <state width="1320" height="222" key="GridCell.Tab.1.left/0.24.1366.699@0.24.1366.699" timestamp="1591665922837" />
+    <state width="1320" height="222" key="GridCell.Tab.1.right" timestamp="1591665922838">
       <screen x="0" y="24" width="1366" height="699" />
     </state>
-    <state width="1320" height="222" key="GridCell.Tab.1.right/0.24.1366.699@0.24.1366.699" timestamp="1591662237418" />
+    <state width="1320" height="222" key="GridCell.Tab.1.right/0.24.1366.699@0.24.1366.699" timestamp="1591665922838" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1591564363403">
       <screen x="0" y="24" width="1366" height="699" />
     </state>

@@ -30,6 +30,12 @@ public class Pedido {
     @Column(name = "data_conclusao")
     private LocalDateTime dataConclusao;
 
+    @Column(name = "data_criacao")
+    private LocalDateTime dataInsercao;
+
+    @Column(name = "data_alteracao")
+    private LocalDateTime dataAlteracao;
+
     @OneToOne(mappedBy = "pedidoId")
     private NotaFiscal notaFiscalId;
 
@@ -45,4 +51,14 @@ public class Pedido {
 
     @Embedded
     private EnderecoEntregaPedido enderecoEntregaPedido;
+
+    @PrePersist
+    public void aoInserir(){
+        this.dataInsercao = LocalDateTime.now();
+    }
+
+    @PreUpdate
+    public void aoAtualizar(){
+        this.dataAlteracao = LocalDateTime.now();
+    }
 }
